@@ -1,0 +1,19 @@
+{
+  "name": "broken-package",
+  "version": "26.7.0",
+  "description": "Components inside the ATG Design System",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@emotion/react": "^11.13.5",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.13.5",
+    "typescript": "5.7.2"
+
+  }
+}

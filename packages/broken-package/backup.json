@@ -1,0 +1,20 @@
+{
+  "name": "broken-package",
+  "version": "26.7.0",
+  "description": "Broken manifest file",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "dependencies": {
+    "working-package": "workspace:*",
+    "pure-react-carousel": "^1.30.1"
+  },
+  "devDependencies": {
+    "typescript": "5.7.2"
+  }
+}
